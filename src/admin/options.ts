@@ -11,6 +11,10 @@ import {componentLoader, Components} from './component-loader.js';
 //   componentLoader
 // })
 const options: AdminJSOptions = {
+  branding: {
+    companyName: '',
+    logo: false, // Remove the logo from the sidebar
+  },
   componentLoader,
   dashboard:{
     component:Components.Dashboard

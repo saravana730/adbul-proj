@@ -70,7 +70,7 @@ const CustomSidebar = () => {
               className="fas fa-home"
               style={styles.icon(location.pathname === '/admin/pages/home')}
             ></i>
-            Home
+            User Data
           </Link>
         </li>
       </ul>
