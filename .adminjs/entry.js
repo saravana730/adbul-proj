@@ -5,3 +5,5 @@ import Home from '../dist/components/home'
 AdminJS.UserComponents.Home = Home
 import SidebarResourceSection from '../dist/components/customSidebar'
 AdminJS.UserComponents.SidebarResourceSection = SidebarResourceSection
+import Login from '../dist/components/login'
+AdminJS.UserComponents.Login = Login

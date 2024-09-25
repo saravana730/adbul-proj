@@ -14,6 +14,7 @@ const options: AdminJSOptions = {
   branding: {
     companyName: '',
     logo: false, // Remove the logo from the sidebar
+
   },
   componentLoader,
   dashboard:{

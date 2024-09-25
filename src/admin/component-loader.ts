@@ -6,6 +6,8 @@ const Components = {
     Dashboard: componentLoader.add('Dashboard',  '../components/dashboard'),
     Home: componentLoader.add('Home',  '../components/home'),
     SideBar: componentLoader.override('SidebarResourceSection','../components/customSidebar'),
+    Login: componentLoader.override('Login', '../components/login')
+
 
 };
 
